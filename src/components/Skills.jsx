@@ -2,36 +2,39 @@ import React from 'react'
  
 // import { SiCss3, SiHtml5, SiJavascript, SiNodedotjs, SiReact, SiTailwindcss } from "react-icons/si"
 
-import { SiReact } from "@icons-pack/react-simple-icons";
+// import { SiReact } from "@icons-pack/react-simple-icons";
+
+import { react, tailwindcss, nodejs, javascript, html5, css3 } from '@/constants/image';
+
 const sks = [
     {
         label: "React",
-        icon : <SiReact size={24} />,
+        icon : react,
     },
-    // {
-    //     label: "Tailwind",
-    //     icon : <SiTailwindcss size={25} className='icon'/>,
-    // },
-    // {
-    //     label: "React Native",
-    //     icon : <SiReact size={25} className='icon'/>,
-    // },
-    // {
-    //     label: "Node",
-    //     icon : <SiNodedotjs size={25} className='icon'/>,
-    // },
-    // {
-    //     label: "Javascript",
-    //     icon : <SiJavascript size={25} className='icon'/>,
-    // },
-    // {
-    //     label: "Html",
-    //     icon : <SiHtml5 size={25} className='icon'/>,
-    // },
-    // {
-    //     label: "Css",
-    //     icon : <SiCss3 size={25} className='icon'/>,
-    // },
+    {
+        label: "Tailwind",
+        icon : tailwindcss,
+    },
+    {
+        label: "React Native",
+        icon : react ,
+    },
+    {
+        label: "Node",
+        icon : nodejs,
+    },
+    {
+        label: "Javascript",
+        icon : javascript,
+    },
+    {
+        label: "HTML",
+        icon : html5,
+    },
+    {
+        label: "CSS",
+        icon : css3,
+    },
 ];
 
 
