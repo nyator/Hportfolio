@@ -8,7 +8,7 @@ const Hero = () => {
         
         <div className='space-y-10 text-center lg:text-left' >
             <h1 className='text-4xl lg:text-7xl font-bold'>Nice to meet you! 👋 <br/> <span className='underline decoration-blue-500 underline-offset-1'>I'm Henry.</span></h1>
-            <p className='md:w-96 text-lg text-gray-500'>Based in Ghana, I'm a web developer passionate about building a modern web application that users love.</p>
+            <p className='md:w-96 text-lg text-gray-500'>Based in Ghana, I'm a web developer passionate about building a modern web and mobile application that users love.</p>
 
             <a href="mailto:nyatorhenry@gmail.com" className='inline-block group'>
                 

@@ -8,6 +8,10 @@ const Project = () => {
             <div className='w-40 h-2 bg-blue-500 rounded-full'></div>
             <div className='w-40 h-2 bg-indigo-500 rounded-full translate-x-2'></div>
         </div>
+
+        <div>
+          
+        </div>
     </div>
   )
 }
