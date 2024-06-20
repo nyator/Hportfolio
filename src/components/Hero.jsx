@@ -12,7 +12,7 @@ const Hero = () => {
 
             <a href="mailto:nyatorhenry@gmail.com" className='inline-block group'>
                 
-                <h1 className='text-3xl font-bold group-hover:text-blue-500 transition-all'>Contact Me 📭</h1>
+                <h1 className='text-2xl font-bold group-hover:text-blue-500 transition-all'>Contact Me 📭</h1>
                 <div className='w-40 h-2 bg-blue-500 rounded-full '></div>
                 <div className='w-40 h-2 bg-indigo-500 rounded-full translate-x-2'></div>
             
