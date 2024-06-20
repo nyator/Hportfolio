@@ -1,45 +1,50 @@
 import React from 'react'
- 
-// import { SiCss3, SiHtml5, SiJavascript, SiNodedotjs, SiReact, SiTailwindcss } from "react-icons/si"
 
-// import { SiReact } from "@icons-pack/react-simple-icons";
-
-import { react, tailwindcss, nodejs, javascript, html5, css3, git, figma } from '@/constants/image';
+import { react, tailwindcss, nodejs, javascript, html5, css3, git, figma } from '@/constants/assest';
 
 const sks = [
     {
+        id: 1,
         label: "React",
         icon : react,
     },
     {
+        id: 2,
         label: "Tailwind",
         icon : tailwindcss,
     },
     {
+        id: 3,
         label: "React Native",
         icon : react ,
     },
     {
+        id: 3,
         label: "Node",
         icon : nodejs,
     },
     {
+        id: 4,
         label: "Javascript",
         icon : javascript,
     },
     {
+        id: 5,
         label: "HTML",
         icon : html5,
     },
     {
+        id: 6,
         label: "CSS",
         icon : css3,
     },
     {
+        id: 7,
         label: "Git",
         icon : git,
     },
     {
+        id: 8,
         label: "UI/UX",
         icon : figma,
     },
@@ -57,11 +62,11 @@ const Skills = () => {
 
         <div>
             <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 py-10 '>
-          {sks.map((item, index)=>{
+          {sks.map((item) => {
             return (
                 <div className='bg-[#d8e3ee] h-full w-full rounded-md flex  flex-col text-center justify-center items-center p-20 border-solid border-slate-300 border-4 '>
                     <img src={item.icon}/>
-                    <h1 key={index} className='text-2xl font-medium'>{item.label}</h1>
+                    <h1 key={item.index} className='text-2xl font-medium'>{item.label}</h1>
                 </div>
               )})}
 
