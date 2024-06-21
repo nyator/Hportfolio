@@ -39,7 +39,7 @@ const works = [
   {
     title: "StemBits App (Coming Soon)",
     tech: [Wreact, Wfigma, Wtailwindcss],
-    link: "https://hoo-bank-murex.vercel.app/",
+    link: " ",
     cover: hoobank,
     background: "bg-blue-500",
   },
@@ -48,7 +48,7 @@ const works = [
 
 const Project = () => {
   return (
-    <div className="flex flex-col mt-20 md:mt-4 items-center justify-center">
+    <div className="flex flex-col mt-20  items-center justify-center">
       <div className="-rotate-[4deg]">
         <h1 className="text-3xl text-center font-bold transition-all">Projects 📚</h1>
         <div className="w-40 h-2 bg-blue-500 rounded-full"></div>
