@@ -33,7 +33,7 @@ const works = [
     background: "bg-indigo-500",
   },
   {
-    title: "StemBits App (Coming Soon)",
+    title: "StemBits App (coming)",
     tech: [Wreact, Wfigma, Wtailwindcss],
     // link: "",
     cover: stembit,
@@ -64,8 +64,8 @@ const Project = () => {
                       alt={item.title}
                     />
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/50 group-hover:via-black/40 group-hover:to-black/50 "></div>
-                    <div class="absolute inset-0 flex translate-y-[42%] flex-col items-start justify-center px-9 text-center transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:md:translate-y-[100px] group-hover:translate-y-[60px]">
-                      <h1 class="text-lg font-bold text-white">
+                    <div class="absolute inset-0 flex translate-y-[42%] flex-col items-start justify-center px-9 text-center transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:md:translate-y-[100px] group-hover:translate-y-[50px]">
+                      <h1 class="text-lg font-bold text-white text-start text-nowrap">
                         {item.title}
                       </h1>
 
