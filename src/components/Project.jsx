@@ -12,9 +12,10 @@ import {
   Wfigma,
 } from "../constants/assets";
 
-import { hoobank, portfolio } from "../constants/image";
+import { hoobank, portfolio, stembit } from "../constants/image";
 
 // "bg-indigo-500"
+// bg-blue-500
 
 const works = [
   {
@@ -35,7 +36,7 @@ const works = [
     title: "StemBits App (Coming Soon)",
     tech: [Wreact, Wfigma, Wtailwindcss],
     link: " ",
-    cover: hoobank,
+    cover: stembit,
     background: "bg-blue-500",
   },
 ];

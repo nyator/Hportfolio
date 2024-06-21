@@ -66,7 +66,7 @@ const Skills = () => {
             return (
                 <div className='bg-[#d8e3ee] h-full w-full rounded-md flex flex-col text-center justify-center items-center p-[40px] md:p-[50px] border-solid border-slate-300 border-[3px] '>
                     <img src={item.icon} className='object-contain w-8 h-8 md:w-10 md:h-10'/>
-                    <h1 key={item.index} className='text-sm md:text-lg'>{item.label}</h1>
+                    <h1 key={item.index} className='text-sm md:text-lg '>{item.label}</h1>
                 </div>
               )})}
 
