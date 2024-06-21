@@ -61,15 +61,15 @@ const Project = () => {
             return (
               <a href={item.link} target="blank" key={index} className="">
                 <div className={`${item.background} rounded-md`}>
-                  <div class="p-[25px] group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-md">
+                  <div class="p-[20px] group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-md">
                     <img
                       class="h-full w-full object-contain transition-transform duration-500 group-hover:rotate-1 group-hover:scale-110 rounded-md "
                       src={item.cover}
                       alt={item.title}
                     />
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/50 group-hover:via-black/40 group-hover:to-black/50 "></div>
-                    <div class="absolute inset-0 flex translate-y-[42%] flex-col items-start justify-center px-9 text-center transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:translate-y-[100px]">
-                      <h1 class="text-3xl font-bold text-white">
+                    <div class="absolute inset-0 flex translate-y-[42%] flex-col items-start justify-center px-9 text-center transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:md:translate-y-[100px] group-hover:translate-y-[60px]">
+                      <h1 class="text-lg font-bold text-white">
                         {item.title}
                       </h1>
 
