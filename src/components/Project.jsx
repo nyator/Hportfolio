@@ -35,7 +35,7 @@ const works = [
   {
     title: "StemBits App (Coming Soon)",
     tech: [Wreact, Wfigma, Wtailwindcss],
-    link: " ",
+    // link: "",
     cover: stembit,
     background: "bg-blue-500",
   },

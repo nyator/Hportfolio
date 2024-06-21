@@ -16,6 +16,8 @@ import Wcss3 from '../assets/css32.svg'
 import Wgit from '../assets/git2.svg'
 import Wfigma from '../assets/figma2.svg'
 
+import resume from '../assets/resume.pdf'
+
 export {
     react,
     tailwindcss,
@@ -34,4 +36,6 @@ export {
     Wcss3,
     Wgit,
     Wfigma,
+
+    resume,
 }

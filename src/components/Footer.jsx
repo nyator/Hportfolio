@@ -1,5 +1,8 @@
 import React from 'react';
+
 import { SiGithub, SiLinkedin, SiTwitter, SiYoutube } from "react-icons/si";
+import { FaRegFilePdf } from "react-icons/fa6";
+import {resume} from '../constants/assets';
 
 const socials = [
     {
@@ -21,6 +24,11 @@ const socials = [
         link:"https://www.youtube.com/@devbits_",
         label:"youtube ",
         icon: <SiYoutube size={25} className='icon'/>,
+    },
+    {
+        link: resume,
+        label:"youtube ",
+        icon: <FaRegFilePdf size={25} className='icon'/>,
     },
  
 ];
