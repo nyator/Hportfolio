@@ -12,7 +12,9 @@ import {
   Wfigma,
 } from "../constants/assets";
 
-import { hoobank } from "../constants/image";
+import { hoobank, portfolio } from "../constants/image";
+
+// "bg-indigo-500"
 
 const works = [
   {
@@ -22,20 +24,13 @@ const works = [
     cover: hoobank,
     background: "bg-blue-500",
   },
-  // {
-  //   title: "YKWP",
-  //   tech: [Wtailwindcss, Wreact],
-  //   link: " ",
-  //   cover: hoobank,
-  //   background: "bg-indigo-500",
-  // },
-  // {
-  //   title: "Auro Mobile App",
-  //   tech: [Wtailwindcss, Wreact],
-  //   link: " ",
-  //   cover: hoobank,
-  //   background: "bg-indigo-500",
-  // },
+  {
+    title: "Portfolio",
+    tech:[Wreact, Wtailwindcss],
+    link: "https://portfolio1-nyators-projects.vercel.app/",
+    cover: portfolio,
+    background: "bg-indigo-500",
+  },
   {
     title: "StemBits App (Coming Soon)",
     tech: [Wreact, Wfigma, Wtailwindcss],
@@ -73,10 +68,10 @@ const Project = () => {
                         {item.title}
                       </h1>
 
-                      <div className="flex flex-row gap-5">
+                      <div className="flex flex-row gap-2">
                       {item.tech.map((img) => {
                         return (
-                            <img key={index} src={img} alt="tech" className="w-7 h-7 "/>
+                            <img key={index} src={img} alt="tech" className="w-5 h-5 "/>
                           );
                         })}
                         </div>
