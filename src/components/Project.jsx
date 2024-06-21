@@ -59,7 +59,7 @@ const Project = () => {
                 <div className={`${item.background} rounded-md`}>
                   <div class="p-[20px] group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-md">
                     <img
-                      class="h-full w-full object-contain transition-transform duration-500 group-hover:rotate-1 group-hover:scale-110 rounded-md "
+                      class="h-full w-full object-contain transition-transform duration-500 group-hover:rotate-1 group-hover:scale-[1.03] rounded-md "
                       src={item.cover}
                       alt={item.title}
                     />
