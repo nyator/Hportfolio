@@ -34,7 +34,7 @@ const Hero = () => {
 
             <div class="fle items-center justify-center absolute bottom-5 sm:bottom-1 left-[15%] sm:left-20">
                 <button class="animate-border shadow-2xl rounded-md bg-transparent bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 bg-[length:400%_400%] p-[3px]">
-                <span class="block rounded-md bg-slate-900 px-5 py-3 font-bold text-white"> 📣 Available or Work </span>
+                <span class="block rounded-md bg-slate-900 px-5 py-3 font-bold text-white"> 📣 Available for Work </span>
                 </button>
             </div>
         </div>
